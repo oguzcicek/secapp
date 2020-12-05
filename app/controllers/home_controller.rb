@@ -13,4 +13,9 @@ class HomeController < ApplicationController
     redirect_to 'https://www.localworkingtimes.com/uk/catalogue/aldi/aldi-offers-06-12-dec-2020/offers', status: 301
   end
 
+  def iceland_1
+    sleep(2)
+    redirect_to 'https://www.localworkingtimes.com/uk/catalogue/iceland/iceland-offers-05-12-dec-2020/offers', status: 301
+  end
+
 end

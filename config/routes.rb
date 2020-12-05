@@ -9,4 +9,7 @@ Rails.application.routes.draw do
 
   get '/us/aldi-finds-06-12-dec-2020', to: 'home#aldi_us1'
 
+  #Iceland
+  get '/uk/iceland-leaflet-1', to: 'home#iceland_1'
+
 end
