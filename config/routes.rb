@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   #get '/post-1', to: redirect('https://www.localworkingtimes.com/uk/catalogue/poundstretcher/poundstretcher-offers-01-30-dec-2020/offers', status: 301)
   get '/post-1', to: 'home#index'
 
+  get '/us/aldi-finds-06-12-dec-2020', to: 'home#aldi_us1'
+
 end

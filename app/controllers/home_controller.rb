@@ -6,4 +6,11 @@ class HomeController < ApplicationController
   end
 
 
+  #
+
+  def aldi_us1
+    sleep(1)
+    redirect_to 'https://www.localworkingtimes.com/uk/catalogue/aldi/aldi-offers-06-12-dec-2020/offers', status: 301
+  end
+
 end
