@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   #ALDI
   get '/us/aldi-finds-06-12-dec-2020', to: 'home#aldi_us1'
-  get '/uk/aldi-leaflet-06-12-dec-2020', to: 'home#aldi_uk1'
+  get '/uk/aldi-leaflet-06-12-dec', to: 'home#aldi_uk1'
 
   #Iceland
   get '/uk/iceland-leaflet-1', to: 'home#iceland_1'
