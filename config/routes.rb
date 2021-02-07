@@ -12,7 +12,6 @@ Rails.application.routes.draw do
   get '/us/aldi-finds-06-12-dec-2020', to: 'home#aldi_us1'
   get '/usa/aldi-finds-24-30-jan', to: 'home#aldi_us2'
 
-
   #UK
   get '/uk/aldi-leaflet-06-12-dec', to: 'home#aldi_uk1'
 
@@ -20,6 +19,7 @@ Rails.application.routes.draw do
   get '/uk/iceland-leaflet-1', to: 'home#iceland_1'
 
 
+  get '/a1' , to: 'katalog#show'
 
 
 end
