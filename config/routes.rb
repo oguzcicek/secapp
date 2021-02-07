@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   get '/uk/iceland-leaflet-1', to: 'home#iceland_1'
 
 
-  get '/a1' , to: 'katalog#show'
+  get '/aldi-leaflet-february2' , to: 'katalog#show'
 
 
 end
